@@ -1,0 +1,45 @@
+.introBody{
+    align-items: center;
+    text-align: left;
+    margin-left: 4rem;
+    font-family: Croissant One, cursive;
+    margin-bottom: 20px;
+}
+
+.tag_btn{
+    font-family: Signika Negative, sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    border: 1px solid #fff ;
+    border-radius: 75px;
+    width: 15rem;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 3rem;
+    margin-top: 15rem;
+    margin-left: 14rem;
+}
+.tag_icon{
+    margin-right: 3px;
+    margin-top: 2px;
+    padding-top: 1px;
+}
+.tag_heading{
+    padding: 1px;
+    font-size: 25px;
+    text-align: center;
+}
+.text{
+    font-size: 4.5rem;
+    color:  #fff;
+}
+.textName {
+    font-size: 4.5rem;
+    color: #28e98c;
+}
+.IntroCaption{
+    font-size: 2rem;
+    color: #9c9b9b;
+}

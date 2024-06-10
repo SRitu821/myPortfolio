@@ -1,0 +1,10 @@
+.box_body{
+    border-left: 1px solid #fff;
+    border-radius: 20px;
+    border-width: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 3.5rem 0px;
+    text-align: start;
+    margin-left: 3rem;
+}

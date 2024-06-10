@@ -1,0 +1,27 @@
+.Skl_box_body{
+    display: flex;
+    flex-direction: column;
+}
+
+.box_logo{
+    color: white;
+    border: 1px solid #fff;
+    border-radius: 75px;
+    height: 8.5rem;
+    width: 6.5rem;
+}
+
+.box_logo:hover{
+    border: 2px solid #28e98c;
+}
+
+.bx_logo{
+    margin-top: 2.7rem;
+    font-size: 50px;
+}
+
+.box_name{
+    color: white;
+    margin-top: 20px;
+    font-family: 'Signika Negative', sans-serif;
+}

@@ -1,0 +1,43 @@
+.project_body{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 4rem;
+}
+
+.proj_btn{
+    font-family: Signika Negative, sans-serif;
+    border: 1px solid  #fff;
+    border-radius:75px ;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    width: 15rem;
+    text-align: center;
+    padding: 5px;
+    margin-top: 15rem;
+    margin-left: 14rem;
+}
+
+.tag_icon{
+    margin-right: 3px;
+    margin-top: 2px;
+    padding-top: 1px;
+}
+
+.tag_text{
+    font-size: 25px;
+    margin-top: 1px;
+    padding: 1px;
+}
+.proj_heading{
+    font-family: Croissant One, cursive;
+    font-size: 3.5rem;
+    color: #fff;
+    padding-top: 60px;
+    text-align: left;
+}
+.proj_text2{
+    color:  #28e98c;
+}
