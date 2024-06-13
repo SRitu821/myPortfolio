@@ -1,30 +1,59 @@
 .about {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Signika Negative', sans-serif;
     text-align: center;
     display: flex;
     flex-direction: column;
     border: 1px solid;
-    border-radius: 15px;
+    border-radius: 45px;
     border-color:white;
     width: 22rem;
-    height: 85vh;
+    height: 40rem;
     color: aliceblue;
     align-items: center;
     margin-left: 4rem;
+    position: fixed;
+    margin-top: 5.2rem;
+}
+
+@media screen and (max-width: 700px) {
+    .about{
+        position: relative;
+        align-items: center;
+    }
+}
+@media screen and (min-width: 701px) and (max-width: 1324px){
+    .about{
+        position: relative;
+        width: 28rem;
+        align-items: center;
+    }
 }
 
 .about_header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Signika Negative', sans-serif;
     font-size: 14px;
     margin: 5px;
     padding: 4px;
     width: 85%;
     align-items:center ;
 }
-
+@media screen and (max-width: 700px) {
+    .about_header{
+        display: grid;
+        grid-gap: 10rem;
+        grid-template-columns: minmax(0,1.2fr) minmax(0,2.5fr);
+    }
+}
+@media screen and (min-width: 701) and (max-width: 1324px){
+    .about_header{
+        display: grid;
+    grid-gap: 15rem;
+    grid-template-columns: minmax(0,1.2fr) minmax(0,1.2fr);   
+    }
+}
 .designation:hover{
     color: #28e98c;
 }
@@ -38,11 +67,21 @@
 .img{
     display: flex;
     flex-direction: column;
-    border-radius: 12px;
+    border-radius: 20px;
     width: 9.9rem;
     height: 11rem;
-    /* margin-top: 2.5rem; */
+    
 }
+@media screen and (min-width:  701px) and (max-width: 1324px){
+    .img{
+        margin-left: 0;
+    }
+}
+@media screen and (min-width: 701px) and (max-width: 1324px){
+    .img{
+      margin-left: 0; 
+    }
+    }
 
 .email{
     margin-top: 30px;
@@ -57,10 +96,12 @@
 .Copyright{
     margin-top: 20px;
     margin-bottom: 0;
+    font-family: 'Times New Roman', Times, serif
+    ;
 }
 
 .icon_logo{
-    height: 1rem;
+    /* height: 1rem;
     width: 1rem;
     border: 1px solid #fff;
     border-radius: 100%;
@@ -69,8 +110,35 @@
     margin-left: 5px;
     margin-right: 5px;
     color: #fff;
-    cursor: pointer;
+    cursor: pointer; */
+    padding: 11px;
+    border: 1px solid white;
+    border-radius: 100%;
+    color: white;
 }
+
+.about_socialMedia {
+    margin-top: 20px; margin-left: 30px; margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+}  
+
+@media screen and (max-width: 700px){
+    .about_socialMedia{
+      display: grid;
+      grid-gap: 1rem;
+      grid-template-columns: minmax(0,1.2fr) minmax(0,1.2fr) minmax(0,1.2fr) minmax(0,1.2fr); 
+    }
+}  
+@media screen and (min-width: 701px) and (max-width: 1324px){
+    .about_socialMedia{
+      display: grid;
+      grid-gap: 1rem;
+      grid-template-columns: minmax(0,1.2fr) minmax(0,1.2fr) minmax(0,1.2fr) minmax(0,1.2fr); 
+    }
+}   
 
 .icon_logo:hover{
     color: #28e98c;
@@ -94,6 +162,7 @@
     background-color: #28e98c;
     text-align: center;
     padding: 0;
+    font-family: 'Signika Negative', sans-serif;
 }
 .hireIcon{
     color: #000;

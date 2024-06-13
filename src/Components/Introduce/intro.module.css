@@ -1,45 +1,102 @@
 .introBody{
-    align-items: center;
+    /* align-items: center;
     text-align: left;
     margin-left: 4rem;
     font-family: Croissant One, cursive;
-    margin-bottom: 20px;
-}
-
-.tag_btn{
-    font-family: Signika Negative, sans-serif;
-    font-size: 1.5rem;
+    margin-bottom: 20px; */
     display: flex;
-    justify-content: center;
-    color: #fff;
-    border: 1px solid #fff ;
-    border-radius: 75px;
-    width: 15rem;
-    text-align: center;
-    padding: 5px;
-    margin-bottom: 3rem;
-    margin-top: 15rem;
-    margin-left: 14rem;
+    flex-direction: column; 
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 6rem;
+    color: white;
+    position: relative;
+    padding-top: 6rem;
+    font-family: Croissant One, cursive;
 }
-.tag_icon{
-    margin-right: 3px;
-    margin-top: 2px;
-    padding-top: 1px;
+.Myself{
+    margin: 4rem 0 0 1rem;
+    padding-left: 0px;
+    text-align: start;
 }
-.tag_heading{
-    padding: 1px;
-    font-size: 25px;
-    text-align: center;
-}
-.text{
+.head_text1{
+    font-size: 70px;
+    color: white;
+    font-family: 'Croissant One', cursive;
+ }
+
+ .head_text2{
+    color: #28e98c;
+    font-family: 'Croissant One', cursive;
+ }
+
+/* .text{
     font-size: 4.5rem;
     color:  #fff;
-}
-.textName {
+    line-height: 5.5rem;
+} */
+/* .textName {
     font-size: 4.5rem;
     color: #28e98c;
-}
-.IntroCaption{
-    font-size: 2rem;
+} */
+/* .IntroCaption{
+    font-size: 1.1rem;
     color: #9c9b9b;
+    margin-top: 46px;
+} */
+.caption_text{
+    text-align: start;
+    color: hsl(60, 1%, 63%);
+    margin-top: 3rem;
+    margin-left: 1.1rem;
+    font-size: 16px;
+    font-family: 'Croissant One', cursive;
 }
+
+@media screen and (max-width: 700px) {
+    .introBody{
+        position: relative;
+        align-items: center;
+        margin-left: 0;
+        padding-top: 2rem;
+    }
+    .Myself{
+        margin-left: 0;
+        margin-top: 3rem;
+        text-align: center;
+        width: 25rem 
+    }
+    .head_text1{
+        font-size: 30px;
+        ;
+    }
+   .IntroCaption{
+    width: 20rem;
+    }
+    .caption_text{
+        text-align: center;
+        font-size: 18px;
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 1324px){
+    .introBody{
+        position: relative;
+        align-items: center;
+        margin-left: 0;
+        padding-top: 2rem;
+    }
+    .Myself{
+        margin-left: 0;
+        margin-top: 3rem;
+        text-align: center;
+    }
+   
+    .caption_text{
+        text-align: center;
+        font-size: 30px;
+        margin-left: 0;
+    }
+    
+  }

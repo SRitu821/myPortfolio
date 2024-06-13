@@ -25,8 +25,7 @@ const About = () => {
         <div className={styles.about_socialMedia}>
           <a href="https://www.linkedin.com/in/ritu-singh-57129322a"><FaLinkedin className={styles.icon_logo} /></a>
           <a href="https://www.instagram.com/ritusingh2431/"><FaInstagram className={styles.icon_logo} /></a>
-          <a href="https://github.com/SRitu821"><FaGithub className={styles.icon_logo} />
-</a>
+          <a href="https://github.com/SRitu821"><FaGithub className={styles.icon_logo} /></a>
         </div>
 
         <div className={styles.about_button}>

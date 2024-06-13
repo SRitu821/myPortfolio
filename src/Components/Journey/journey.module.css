@@ -1,47 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+
+
 .journey_body{
     display: flex;
     flex-direction: column;
-    text-align: left;
-    margin-left: 4rem;
+    margin-left: 1rem;
+    padding-top: 4rem;
+    
 }
-
-.tag_btn{
-    font-family: Signika Negative, sans-serif;
-    font-size: 1.5rem;
-    display: flex;
-    justify-content: center;
-    color: #fff;
-    border: 1px solid #fff ;
-    border-radius: 75px;
-    width: 15rem;
-    text-align: center;
-    padding: 5px;
-    margin-top: 15rem;
-    margin-left: 14rem;
-}
-.tag_icon{
-    margin-right: 3px;
-    margin-top: 2px;
-    padding-top: 1px;
-}
-.tag_heading{
-    padding: 1px;
-    font-size: 25px;
-    text-align: center;
-}
-.heading{
-    font-family: Croissant One, cursive;
-    font-size: 3.5rem;
-    color: #fff;
-    padding-top: 60px;
-    text-align: left;
-}
-.journey{
-    color: #28e98c;
+.jrny_heading{
+    margin: 4rem 0 0 1rem;
+    padding-left: 0px;
+    text-align: start;   
 }
 .j_msg{
-    font-family: Signika Negative, sans-serif;
-    color: #9c9b9b;
-    font-size: 1.5rem;
-    unicode-bidi: isolate
+    color: white;
+    margin: 1rem 0 0 1rem;
+    padding-left: 0px;
+    text-align: start; 
+}
+.jrny_heading{
+    font-size: 70px;  
+}
+.jrny_txt{
+    color: hsl(60, 1%, 63%);
+    margin-top: 2rem;
+    font-size: 19px;
+    font-family: 'Signika Negative', sans-serif;
+}
+@media screen and (max-width: 700px) {
+    .journey-body{
+      position: relative;
+      align-items: center;
+      margin-left: 0;
+      padding-top: 2rem;
+    }
+    .jrny_heading{
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+    .j_msg{
+        text-align: centre;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .jrny_txt{
+        padding: 1rem;
+        font-size: 20px;
+        text-align: center;
+        width: 20rem;
+    } 
+    
+  }
+  @media screen and (min-width: 701px) and (max-width: 1324px){
+    .journey_body{
+      position: relative;
+      align-items: center;
+      margin-left: 0;
+    }
+    .jrny_heading{
+        margin-left: 0;
+    }
+    .j_msg{
+        text-align: centre;
+    }
+    .jrny_txt{
+        padding: 1rem;
+        font-size: 25px;
+        text-align: center;
+        width: 40rem;
+    } 
+  }
+  .top_tag {
+    padding: 0px;
+    display: flex;
+ }
+ .tag_logo{
+    padding-top: 1px;
+    margin-top: 2px;
+    margin-right: 3px;
+}
+.tag_text{
+    padding: 1px;
+    font-family: 'Signika Negative', sans-serif;
+}
+ .tag_btn{
+     margin-left: 2rem;
+     color: white;
+     border: 1px solid hsl(60, 1%, 63%);
+     border-radius: 50px;
+     font-size: 13px;
+     padding: 3px 13px 3px 13px;
+     background-color: inherit;
+ }
+ 
+ .heading_text1{
+    font-size: 55px;
+    color: white;
+    font-family: 'Croissant One', cursive;
+ }
+ 
+
+ .heading_text2{
+    color: #28e98c;
+    font-family: 'Croissant One', cursive;
+ }
+ @media screen and (max-width: 700px) {
+    .heading_text1{
+        font-size: 30px;
+    }
+    .tag_btn{
+        margin-left: 0;
+        display: flex;
+    }
+    .tag_text{
+        font-size: 13px;
+    }
+    .tag_logo{
+        font-size: 12px;
+        padding-top: 1px;
+         margin-top: 2px;
+         margin-right: 3px;
+    }
+  }
+@media screen and (min-width: 701px) and (max-width: 1324px){
+    .heading_text1{
+        font-size: 50px;
+    }
+    .tag_btn{
+        margin-left: 0;
+        display: flex;
+    }
+    .tag_text{
+        font-size: 25px;
+    }
+    .tag_logo{
+        font-size: 24px;
+        padding-top: 1px;
+         margin-top: 2px;
+         margin-right: 3px;
+    }
+    
 }

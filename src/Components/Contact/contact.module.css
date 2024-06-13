@@ -7,17 +7,16 @@
 
 .contactBtn{
     font-family: Signika Negative, sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     border: 1px solid #fff;
     border-radius: 75px;
     text-align: center;
     display: flex;
     justify-content: center;
     padding: 5px;
-    margin-bottom: 3rem;
-    margin-top: 15rem;
-    margin-left: 14rem;
-    width: 15rem;
+    margin-top: 7.5rem;
+    margin-left: 3.5rem;
+    width: 10rem;
     color: #fff;
 }
 
@@ -29,7 +28,7 @@
 
 .btnText{
     padding: 1px;
-    font-size: 25px;
+    font-size: 1.2rem;
     text-align: center;
 }
 
@@ -38,9 +37,117 @@
     font-size: 3.5rem;
     color: #fff;
     padding-top: 60px;
-    text-align: left 
+    text-align: left;
+    margin-left: 3.5rem;
 }
 
 .headText_W2{
     color: #28e98c;
+}
+
+.contact_input{
+    padding-bottom: 2rem;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    justify-content: space-between;
+    color: aliceblue;
+    border-bottom: 0.5px solid rgb(150, 154, 157);
+    width: 40rem;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.spanx{
+    color: red;
+}
+
+.inpt{
+    color: rgb(117, 113, 113);
+    margin-top: 10px;
+    font-size: 18px;
+    background:transparent;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.ul_input{
+    text-align: start;
+    margin-top: 2rem;
+    padding: 0;
+}
+
+.submitBtn{
+    margin-top: 3rem;
+}
+
+.send{
+    color: rgb(0, 0, 0);
+    background-color:rgba(30, 248, 139, 0.933) ;
+    margin-bottom: 80px;
+    margin-top: -50px;
+    padding: 10px;
+    border-radius: 50px;
+    border:2px solid rgba(30, 248, 139, 0.933);
+    cursor: pointer;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 0.9rem;
+}
+
+.send:hover{
+    font-size: 13.5px;
+    box-shadow: 0px 4px 15px 0px rgb(117, 113, 113);
+}
+
+.emoji{
+    font-size: 12px;
+}
+
+@media screen and (max-width: 700px) {
+    .body{
+        position: relative;
+        align-items: center;
+        margin-left: 0;
+        padding-top: 2rem;
+      }
+    .contact_input{
+        margin-left: 0;
+        flex-direction: column;
+        width: 10rem;
+    }
+    .send{
+        margin-bottom: 40px;
+        font-size: 18px;
+        margin-top: 5px;
+    }
+    
+    .emoji{
+        font-size: 15px;
+    }
+    .fn{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 1324px){
+    .body{
+        position: relative;
+        align-items: center;
+        margin-left: 0;
+        padding-top: 2rem;
+      }
+    .contact_input{
+        margin-left: 0;
+    }
+    .send{
+        margin-bottom: 40px;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .emoji{
+        font-size: 18px;
+    }
+    .fn{
+        font-size: 20px;
+    } 
 }
