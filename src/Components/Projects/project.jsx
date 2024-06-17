@@ -6,7 +6,8 @@ import Tags from '../TopTag/tag';
 const Project = () => {
     return (
         <div id="pr" className={styles.project_body}>
-            < Tags tagLogo = {HiOutlineViewGrid} tagName ="PROJECTS" />
+            <div>< Tags tagLogo={HiOutlineViewGrid} tagName ="PROJECTS" /></div>
+
             <div className={styles.proj_heading}>
                 <span className={styles.heading_text1}>My <span className={styles.heading_text2}>Projects</span></span>
             </div>

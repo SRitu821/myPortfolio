@@ -2,6 +2,7 @@
 .top_tag {
     padding: 0px;
     display: flex;
+    /* margin-top: 100px; */
  }
  
  .tag_logo{
@@ -23,7 +24,7 @@
      background-color: inherit;
  }
  
- .heading_text1{
+ /* .heading_text1{
     font-size: 55px;
     color: white;
     font-family: 'Croissant One', cursive;
@@ -33,11 +34,11 @@
  .heading_text2{
     color: #28e98c;
     font-family: 'Croissant One', cursive;
- }
+ } */
  @media screen and (max-width: 700px) {
-    .heading_text1{
+    /* .heading_text1{
         font-size: 30px;
-    }
+    } */
     .tag_btn{
         margin-left: 0;
         display: flex;
@@ -53,9 +54,9 @@
     }
   }
 @media screen and (min-width: 701px) and (max-width: 1324px){
-    .heading_text1{
+    /* .heading_text1{
         font-size: 50px;
-    }
+    } */
     .tag_btn{
         margin-left: 0;
         display: flex;

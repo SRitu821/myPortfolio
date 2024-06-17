@@ -1,9 +1,4 @@
 .introBody{
-    /* align-items: center;
-    text-align: left;
-    margin-left: 4rem;
-    font-family: Croissant One, cursive;
-    margin-bottom: 20px; */
     display: flex;
     flex-direction: column; 
     margin-top: 2rem;
@@ -12,7 +7,6 @@
     color: white;
     position: relative;
     padding-top: 6rem;
-    font-family: Croissant One, cursive;
 }
 .Myself{
     margin: 4rem 0 0 1rem;
@@ -30,20 +24,6 @@
     font-family: 'Croissant One', cursive;
  }
 
-/* .text{
-    font-size: 4.5rem;
-    color:  #fff;
-    line-height: 5.5rem;
-} */
-/* .textName {
-    font-size: 4.5rem;
-    color: #28e98c;
-} */
-/* .IntroCaption{
-    font-size: 1.1rem;
-    color: #9c9b9b;
-    margin-top: 46px;
-} */
 .caption_text{
     text-align: start;
     color: hsl(60, 1%, 63%);
@@ -68,11 +48,10 @@
     }
     .head_text1{
         font-size: 30px;
-        ;
     }
    .IntroCaption{
-    width: 20rem;
-    }
+        width: 20rem;
+   }
     .caption_text{
         text-align: center;
         font-size: 18px;
@@ -97,6 +76,5 @@
         text-align: center;
         font-size: 30px;
         margin-left: 0;
-    }
-    
+   } 
   }

@@ -19,13 +19,7 @@ const Skills = () => {
         <div id="sk" className={styles.body}>
                 <div><Tags tagLogo={TbIcons} tagName="SKILLS"/></div>
 
-            {/* <div className={styles.skillbtn}>
-                 <button className={styles.tag_btn}>
-                    <TbIcons className={styles.btnIcon} />
-                    <span className={styles.btnText}> SKILLS </span>
-                </button> 
-            </div> */}
-            <div className={styles.headText1}>
+            <div className={styles.headText}>
                 <span className={styles.headText1_W1}> My <span className={styles.headText1_W2}> Advantages </span></span>
             </div>
             <div className={styles.skillText}>Web Development</div>

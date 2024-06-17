@@ -1,20 +1,24 @@
 
 import styles from "./about.module.css";
+import profilePic from "./image/Ritu.jpg";
+import Logo from "./image/Logo.jpg";
 import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
-import profilePic from "./image/Ritu.jpg";
-import Logo from "./image/Logo.jpg";
 import { IoMdMail } from "react-icons/io";
 
 const About = () => {
     return (
     <div className={styles.about}>
         <div className={styles.about_header}>
-          <img className={styles.logo} src={Logo}/>
-          <span className={styles.designation}>
-            Full Stack<br />Developer
-          </span>
+          <div>
+            <img className={styles.logo} src={Logo} alt="logo"/>
+          </div>
+          <div>
+            <span className={styles.designation}>
+              Full Stack<br />Developer
+            </span>
+          </div> 
         </div>
 
         <img className={styles.img} src={profilePic} alt=''/>
@@ -29,12 +33,9 @@ const About = () => {
         </div>
 
         <div className={styles.about_button}>
-          <div>
-          <IoMdMail className={styles.hireIcon}/>
-          </div>
-          <div>
-            <button className={styles.hireMe}> Hire Me!</button>
-          </div>
+          <a href="mailto:ritusinghmp213@gmail.com.com" className={styles.btn}>
+          <IoMdMail className={styles.hireIcon}/> HIRE ME!
+          </a>
         </div>
       </div>
     );

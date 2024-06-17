@@ -10,7 +10,45 @@
     border-radius: 50px;
     cursor: pointer;
 }
+@media screen and (max-width: 700px) {
+    .sideBar{
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        width: 18rem;
+        height: 3rem;
+        margin-top: 2.2rem;
+        margin-left: 0;
+        padding: 0;
+        align-items: center;
+        z-index: 1;
+        background-color: rgb(30, 29, 29);
+    }
+    .item{
+        margin-left: 1.2rem;
+        margin-bottom: 15px; 
+    }
+}
 
+@media  screen and (min-width: 701px) and (max-width: 1324px){
+    .sideBar{
+     display: flex;
+     flex-direction: row;
+     position: fixed;
+     width: 18rem;
+     height: 3rem;
+     margin-top: 2.2rem;
+     margin-left: 0;
+     padding: 0;
+     align-items: center;
+     z-index: 1;
+     background-color: rgb(30, 29, 29);
+    }
+    .item{
+        margin-left: 1.2rem;
+        margin-bottom: 15px;
+    }
+ }
 .item{
     margin-top: 1.5rem;
     font-size: 25px;

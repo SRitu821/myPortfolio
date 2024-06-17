@@ -5,7 +5,7 @@
     padding-top: 4rem;
 }
 
-.contactBtn{
+/* .contactBtn{
     font-family: Signika Negative, sans-serif;
     font-size: 1.2rem;
     border: 1px solid #fff;
@@ -30,17 +30,22 @@
     padding: 1px;
     font-size: 1.2rem;
     text-align: center;
-}
+} */
 
 .headText{
     font-family: Croissant One, cursive;
     font-size: 3.5rem;
     color: #fff;
-    padding-top: 60px;
-    text-align: left;
-    margin-left: 3.5rem;
-}
+    margin: 4rem 0 0 1rem;
+    padding-left: 0px;
+    text-align: start;
 
+}
+.headText_W1{
+    font-size: 55px;
+    color: white;
+    font-family: 'Croissant One', cursive;
+}
 .headText_W2{
     color: #28e98c;
 }
@@ -91,7 +96,6 @@
     border:2px solid rgba(30, 248, 139, 0.933);
     cursor: pointer;
     font-family: 'Signika Negative', sans-serif;
-    font-size: 0.9rem;
 }
 
 .send:hover{
@@ -100,7 +104,7 @@
 }
 
 .emoji{
-    font-size: 12px;
+    font-size: 10px;
 }
 
 @media screen and (max-width: 700px) {
@@ -110,6 +114,10 @@
         margin-left: 0;
         padding-top: 2rem;
       }
+    .headText{
+        width: 23rem;
+        text-align: center;
+    }
     .contact_input{
         margin-left: 0;
         flex-direction: column;
@@ -150,4 +158,15 @@
     .fn{
         font-size: 20px;
     } 
+}
+
+@media screen and (max-width: 700px){
+    .headText_W1{
+        font-size: 30px;
+    }
+}
+@media screen and (min-width: 701px) and (max-width: 1324px){
+    .headText_W1{
+        font-size: 50px;
+    }
 }

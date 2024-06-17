@@ -12,8 +12,31 @@ body{
   grid-template-columns: minmax(0,1.2fr) minmax(0,2.5fr) minmax(0,13rem);
   padding: 0 10px;
 }
-
+.navbar{
+  display: flex;
+}
+.res_navBar{
+  display: none;
+}
 .mainContent{
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (max-width: 1325px){
+  .App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar{
+    display: none;
+  }
+  .res_navBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 50%; */
+  }
 }

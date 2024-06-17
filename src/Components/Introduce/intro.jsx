@@ -1,6 +1,7 @@
 import styles from './intro.module.css';
 import { IoHomeOutline } from "react-icons/io5";
 import Tags from '../TopTag/tag';
+
 const Introduction = () => {
     return(
         <div id="intr" className={styles.introBody}>

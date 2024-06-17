@@ -1,9 +1,7 @@
-// import { Message } from '@mui/icons-material';
 import styles from './contact.module.css';
 import { MdMailOutline } from "react-icons/md";
 import { BsEmojiSmile } from "react-icons/bs";
 import { useState } from "react";
-// import { Tag } from 'react-feather';
 import Tags from '../TopTag/tag';
 const Contact = () => {
 
@@ -19,14 +17,12 @@ const Contact = () => {
 
     return (
         <div id="co" className={styles.body}>
-            <div><Tags tagLogo={MdMailOutline} tagName="CONTACT"/></div>
-            {/* <div className={styles.contactBtn}>
-                <MdMailOutline className={styles.btnIcon}/>
-                <span className={styles.btnText}>Contact</span>
-            </div> */}
+            <div><Tags tagLogo={MdMailOutline} tagName="CONNECT"/></div>
+
             <div className={styles.headText}>
                 <span className={styles.headText_W1}> Get in <span className={styles.headText_W2}> Touch </span></span>
             </div>
+            
             <div className={styles.contact_input}>
                 <div className={styles.input_1}>
                     <ul className={styles.ul_input}>
