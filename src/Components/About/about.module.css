@@ -6,7 +6,6 @@
     margin:  4.5rem 3rem;
     padding: 1.9rem;
     position: fixed;
-    /* position: relative; */
     width:18rem;
     height: 36rem;
     border-radius: 46px;
@@ -23,7 +22,7 @@
 @media screen and (min-width: 701px) and (max-width: 1324px){
     .about{
         position: relative;
-        width: 28rem;
+        width: 20rem;
         align-items: center;
     }
 }
@@ -42,7 +41,6 @@
 
 .logo{
     width: 60px;
-    /* height: 70px; */
 }
 .designation:hover{
     color: #28e98c;
@@ -68,20 +66,9 @@
     flex-direction: column;
     border-radius: 20px;
     margin-top: 20px;
-    /* margin-left: 70px; */
     width: 8rem;
     height: 13rem;
 }
-/* @media screen and (min-width:  701px) and (max-width: 1324px){
-    .img{
-        margin-left: 100px;
-    }
-}
-@media screen and (min-width: 701px) and (max-width: 1324px){
-    .img{
-        margin-left: 100px; 
-    }
-    } */
 
 .email{
     margin-top: 35px;

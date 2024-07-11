@@ -13,7 +13,57 @@
     font-size: 3.5rem;
     color: #fff;
 }
-
+.pj_body{
+    margin-top: 3rem;
+    display: flex;
+    height: 20rem;
+    flex-direction: row;
+    background-color: rgba(102, 102, 95, 0.351);
+    font-family: 'Signika Negative', sans-serif;
+}
+.pj_abt{
+    color: white;
+    text-align: start;
+    width: 70rem;
+}
+.pj_name{
+    font-size: 2rem;
+    margin-left: 3.5rem;
+    margin-top: 4rem;
+}
+.pj_view{
+    margin-left: 3.5rem;
+    margin-top: 3rem;
+    font-size: 15px;
+    padding: 9px;
+    background-color: #28e98c;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: none;
+    font-family: 'Signika Negative', sans-serif;
+}
+.pj_view:hover{
+    font-size: 15.2px;
+    box-shadow: 0px 4px 15px 0px ;
+}
+.pj_dependencies{
+    font-size: 18px;
+    margin-left: 3.6rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+.pj_img{
+    margin-top: 4rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 70rem;
+    height: 12rem;
+}
+.pj_img:hover{
+    border-radius: 5px;
+    scale: 1.1;
+    transition: all 1s ;
+}
 @media screen and (max-width: 700px) {
     .project_body{
       position: relative;
@@ -25,15 +75,64 @@
         width: 23rem;
         text-align: center;
     }
-   
+    .pj_body{
+        width: 20rem;
+        height: 12rem;
+        text-align: center;
+        flex-direction: column;
+    }
+    .pj_img{
+        display: none;
+    }
+    .pj_abt{
+        width: 20rem;
+        
+    }
+    .pj_name{
+        margin-top: 30px;
+        font-size: 25px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .pj_dependencies{
+        font-size: 17px;
+        margin-left: 1rem;
+        text-align: center;
+    }
+    .pj_view{
+        padding: 5px;
+        font-size: 15px;
+        margin-top: 30px;
+        margin-left: 7rem;
+    }    
 }
+
 @media screen and (min-width: 701px) and (max-width: 1324px){
     .project_body{
       position: relative;
       align-items: center;
       margin-left: 0;
     }  
+    .pj_img{
+        width: 23rem;
+        height: 12rem;
+    }
+    .pj_abt{
+        width: 20rem;
+    }
+    .pj_name{
+        margin-top: 3rem;
+        font-size: 2.2rem;
+    }
+    .pj_dependencies{
+        font-size: 1.5rem;
+    }
+    .pj_view{
+        font-size: 1.3rem;
+        margin-top: 2rem;
+    }      
 }
+
 .heading_text1{
     font-size: 55px;
     color: white;

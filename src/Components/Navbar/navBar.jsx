@@ -14,7 +14,7 @@ const Navbar = () => {
         const links = document.querySelectorAll('.logos');
 
         links.forEach(link  => {
-            link.addEventListener('click',(e) => {
+            link.addEventListener('click', (e) => {
                 e.preventDefault();
                 const targetId = link.getAttribute('href').substring(1);
                 const targetSection = document.getElementById(targetId);
@@ -24,7 +24,7 @@ const Navbar = () => {
                         behavior:'smooth',
                         block:'start',
                         inline:'nearest',
-                        duration:800
+                        // duration:800
                     });
                 }
             });
@@ -40,12 +40,12 @@ const Navbar = () => {
 
     return (
         <div className={styles.sideBar}>
-            <div className={styles.item}><a href='#intr' className={styles.logos}><AiOutlineHome className={styles.Slogo}/></a></div>
-            <div className={styles.item}><a href='#jr' className={styles.logos}><BsPerson className={styles.Slogo}/></a></div>
-            <div className={styles.item}><a href='#re' className={styles.logos}><AiOutlineFileText className={styles.Slogo}/></a></div>
-            <div className={styles.item}><a href='#sk' className={styles.logos}><TbIcons className={styles.Slogo}/></a></div>
-            <div className={styles.item}><a href='#pr' className={styles.logos}><BsGrid3X2Gap className={styles.Slogo}/></a></div>
-            <div className={styles.item}><a href='#co' className={styles.logos}><FiMail className={styles.Slogo}/></a></div>
+            <div className={styles.item}><a href='#intr' className={'logos ${styles.logos}'}><AiOutlineHome className={styles.Slogo}/></a></div>
+            <div className={styles.item}><a href='#jr' className={'logos ${styles.logos}'}><BsPerson className={styles.Slogo}/></a></div>
+            <div className={styles.item}><a href='#re' className={'logos ${styles.logos}'}><AiOutlineFileText className={styles.Slogo}/></a></div>
+            <div className={styles.item}><a href='#sk' className={'logos ${styles.logos}'}><TbIcons className={styles.Slogo}/></a></div>
+            <div className={styles.item}><a href='#pr' className={'logos ${styles.logos}'}><BsGrid3X2Gap className={styles.Slogo}/></a></div>
+            <div className={styles.item}><a href='#co' className={'logos ${styles.logos}'}><FiMail className={styles.Slogo}/></a></div>
         </div>
     );
 }

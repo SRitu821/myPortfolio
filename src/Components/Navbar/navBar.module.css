@@ -17,7 +17,7 @@
         position: fixed;
         width: 18rem;
         height: 3rem;
-        margin-top: 2.2rem;
+        /* margin-top: 2.2rem; */
         margin-left: 0;
         padding: 0;
         align-items: center;
@@ -33,11 +33,11 @@
 @media  screen and (min-width: 701px) and (max-width: 1324px){
     .sideBar{
      display: flex;
+     margin-top: 10rem;
      flex-direction: row;
      position: fixed;
      width: 18rem;
      height: 3rem;
-     margin-top: 2.2rem;
      margin-left: 0;
      padding: 0;
      align-items: center;
@@ -59,8 +59,9 @@
 }
 .Slogo{
     color: white;
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
 }
 .Slogo:hover{
     color: #28e98c;
 }
+
