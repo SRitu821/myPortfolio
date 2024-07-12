@@ -74,6 +74,36 @@
     border: 1px solid #28e98c;
 }
 
+.about_button{
+    display: flex;
+    border: 2px solid rgb(30, 29, 29);
+    border-radius: 25px;
+    width: 15rem;
+    cursor: pointer;
+    padding: 10px;
+    margin: 25px 8px;
+    background-color: #28e98c;
+}
+.btn{
+    margin-left: 60px;
+    display: flex;
+    flex-direction: row;
+    background-color: inherit;
+    border: none;
+    font-size: 19px;
+    justify-content: space-between;
+    cursor: pointer;
+    color: rgb(30, 29, 29);
+    font-family: 'Signika Negative', sans-serif;
+    text-decoration: none;
+}
+
+.hireIcon{
+    display: flex;
+    font-size: 23px;
+    margin-right: 5px; 
+}
+
 @media screen and (max-width: 700px) {
     .about{
         position: relative;
@@ -123,33 +153,3 @@
       grid-template-columns: minmax(0,1.2fr) minmax(0,1.2fr) minmax(0,1.2fr) minmax(0,1.2fr); 
     }
 }   
-
-.about_button{
-    display: flex;
-    border: 2px solid rgb(30, 29, 29);
-    border-radius: 25px;
-    width: 15rem;
-    cursor: pointer;
-    padding: 10px;
-    margin: 25px 8px;
-    background-color: #28e98c;
-}
-.btn{
-    margin-left: 60px;
-    display: flex;
-    flex-direction: row;
-    background-color: inherit;
-    border: none;
-    font-size: 19px;
-    justify-content: space-between;
-    cursor: pointer;
-    color: rgb(30, 29, 29);
-    font-family: 'Signika Negative', sans-serif;
-    text-decoration: none;
-}
-
-.hireIcon{
-    display: flex;
-    font-size: 23px;
-    margin-right: 5px; 
-}
