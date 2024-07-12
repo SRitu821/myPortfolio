@@ -23,7 +23,7 @@ const Resume = () => {
             <div className={styles.rsmBox_content}>
                 <RsmBox duration="2021 - present" role="Bachelor of Technology" at="Poornima College of Engineering"></RsmBox>
             </div>
-            <a href="https://drive.google.com/file/d/17bVSzkpNGDZrJNJ19OMJ7m5AhhpyRZ9O/view?usp=drive_link" target="blank">
+            <a href="https://drive.google.com/file/d/1bCVemyfLfPUZK8W7PgPtvi07fz_Hbfc2/view?usp=drive_link" target="blank">
                     <button className={styles.rs_view}>View Resume</button>
             </a>
         </div>

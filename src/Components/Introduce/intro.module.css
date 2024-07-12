@@ -47,14 +47,14 @@
         width: 25rem 
     }
     .head_text1{
-        font-size: 30px;
+        font-size: 35px;
     }
    .IntroCaption{
-        width: 20rem;
+        width: 25rem;
    }
     .caption_text{
         text-align: center;
-        font-size: 18px;
+        font-size: 20px;
         margin-left: 0;
     }
 }
