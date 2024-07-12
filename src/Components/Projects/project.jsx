@@ -26,9 +26,9 @@ const Project = () => {
                 <div className={styles.pj_abt}>
                     <div className={styles.pj_name}>Weather App</div>
                     <div className={styles.pj_dependencies}>HTML, CSS, JavaScript, React</div>
-                    {/* <a href="weather-app-bice-tau-63.vercel.app" target="blank" onClick={() => trackButtonClick('Weather App')}> */}
+                    <a href="https://weather-app-sritu821s-projects.vercel.app/" target="blank" >
                         <button className={styles.pj_view}>View Project</button>
-                    {/* </a> */}
+                    </a>
                 </div>
                 <img className={styles.pj_img} src={pjimg1} alt="img" />
             </div>
@@ -37,9 +37,9 @@ const Project = () => {
                 <div className={styles.pj_abt}>
                     <div className={styles.pj_name}>Comic Generator</div>
                     <div className={styles.pj_dependencies}>HTML, CSS, JavaScript, MEN Project</div>
-                    {/* <a href="comic-generator-nu.vercel.app" target="blank" onClick={() => trackButtonClick('Comic Generator')}> */}
-                    <button className={styles.pj_view}>View Project</button>
-                    {/* </a> */}
+                    <a href="https://comic-generator-sritu821s-projects.vercel.app/" target="blank" >
+                        <button className={styles.pj_view}>View Project</button>
+                    </a>
                 </div>
             </div>
         </div>
