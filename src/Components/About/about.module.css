@@ -11,7 +11,7 @@
     border-radius: 46px;
     border: 1px solid hsl(60, 1%, 63%);
     color: white;
-    margin-bottom: 3rem;
+    /* margin-bottom: 3rem; */
 }
 .about_header{
     display: flex;
@@ -124,7 +124,7 @@
 @media screen and (min-width: 701px) and (max-width: 1324px){
     .about{
         position: relative;
-        width: 28rem;
+        width: 35rem;
         align-items: center;
     }
     .about_header{
@@ -135,7 +135,11 @@
     .about_socialMedia{
         justify-content: center;
         align-items: center;
-        margin-left: 11%
+        margin-left: 20%
+    }
+    .img{
+        width: 9.5rem;
+        height: 13.5rem;
     }
 }
 

@@ -67,15 +67,18 @@
         padding-top: 2rem;
     }
     .Myself{
-        margin-left: 0;
+        /* margin-left: 0; */
         margin-top: 3rem;
-        text-align: center;
+        text-align: center;   
+        margin-left: 3.5rem;
+        margin-right: 3.5rem;
     }
    
     .caption_text{
         text-align: center;
         font-size: 30px;
-        margin-left: 0;
+        margin-left: 3rem;
+        margin-right: 3rem;
    } 
    .head_text1{
     font-size: 50px;
