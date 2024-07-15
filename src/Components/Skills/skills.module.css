@@ -34,11 +34,11 @@
 
 .sk1_content{
     margin-top: 3rem;
-    /* margin-left: 4.5rem; */
     margin-left: 2rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    /* flex-direction: column; */
     justify-content: space-between;
 }
 .headText1_W1{
@@ -48,7 +48,6 @@
 }
 .headText1_W2{
     color: #28e98c;
-    /* font-family: 'Croissant One', cursive; */
 }
 @media screen and (min-width: 701px) and (max-width: 1324px){
     .body{
@@ -78,7 +77,6 @@
     .body{
         position: relative;
         align-items: center;
-        /* margin-left: 0; */
         padding-top: 2rem;
     }
     .headText{
