@@ -124,8 +124,7 @@
 @media screen and (min-width: 701px) and (max-width: 1324px){
     .about{
         position: relative;
-        /* width: 35rem; */
-        width: 22rem;
+        width: 35rem;
         align-items: center;
     }
     .about_header{
