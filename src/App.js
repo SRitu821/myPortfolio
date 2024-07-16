@@ -34,12 +34,12 @@ function App() {
       <div className="res_navBar"><Navbar /></div>
         <div><About /></div>
       <div className="mainContent">
-        <div><Introduction /></div>
-        <div><Journey /></div>
-        <div><Project /></div>
-        <div><Resume /></div>
-        <div><Skills /></div>
-        <div><Contact /></div>
+        <div className="cls"><Introduction /></div>
+        <div className="cls"><Journey /></div>
+        <div className="cls"><Project /></div>
+        <div className="cls"><Resume /></div>
+        <div className="cls"><Skills /></div>
+        <div className="cls"><Contact /></div>
       </div>
       <div><div className="navbar"><Navbar /></div></div>
       {/* </> */}
